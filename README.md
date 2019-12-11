@@ -63,6 +63,8 @@ __container-fluid__  :  A diferencia de la clase container, esta deja menos espa
 
 ## Alineamieto Horizontal con aling-items
 
+
+
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/align_horizontal.png" width="700"
 </p>
@@ -144,6 +146,8 @@ Ejemplos de 3 rows, uno con cada alineamiento:
  ````
 
 ## Alineamiento Vertical
+
+La imágen de abajo muestra cinco filas con dos divs cada uno.  Cada renglon tiene un tipo de alineacion que afecta la alineación de cada div.
 
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/align_vertical.png" width="700"
