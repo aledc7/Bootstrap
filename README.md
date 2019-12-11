@@ -296,7 +296,7 @@ Puede ser útil para generar encabezados.
 
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/colores.png" width="500"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/colores.png" width="350"
 </p>
       
 
@@ -329,7 +329,7 @@ Puede ser útil para generar encabezados.
 ## Fondos
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/fondos.png" width="500"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/fondos.png" width="350"
 </p>
       
       
