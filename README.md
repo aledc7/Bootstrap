@@ -158,7 +158,7 @@ Disponemos de las siguientes clases para alinear horizontalmente cualquier conte
 
 __justify-content-start__  = alinea a la izquierda.  
 __justify-content-center__ = alinea al centro de la fila.  
-__ustify-content-end__ = alinea a la derecha.  
+__justify-content-end__ = alinea a la derecha.  
 __justify-content-around__ = Deja espacio alrededor de los elementos.  
 __justify-content-between__ =  divide los elementos y tira la mitad a la izquierda y la otra mitad a la derecha.  
 
@@ -211,7 +211,147 @@ __justify-content-between__ =  divide los elementos y tira la mitad a la izquier
         </div>
  ````
 
+
+
+## no-gutters
+
+
+Esta clase elimina los pequeños espaciados que tienen los elementos naturalmente, debe usarse siempre con un __row__    
+
+```php
+<div class="row no-gutters">
+      
+</div>
+`````
+
+## Tipografias
+
  
+Clases para titulos y distintas tipografías:
+
+__H1 al H6__   = Son los titulos similar a los tags de HTML pero con una fuente mas delicada.
+
+__display-1  al display-4__ = Son titulos exageradamente GRANDES!
+
+__lead__   = Esta clase es similar a una etiqueta __p__  solo apenas mas grande la fuente.
+
+
+### Alineación de texto
+
+Las clases disponibles para parrafos son:
+
+__text-left   
+text-center   
+text-right__  
+
+
+
+## Bloque de texto con referencias
+
+<blockquote class="blockquote">
+  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+
+
+
+## Listas list-inline
+
+Esta clase permite poner una lista una al lado de la otra, en lugar de una abajo de la otra.
+Puede ser útil para generar encabezados.  
+
+```php
+<ul class="list-inline">
+  <li class="list-inline-item">Lorem ipsum</li>
+  <li class="list-inline-item">Phasellus iaculis</li>
+  <li class="list-inline-item">Nulla volutpat</li>
+</ul>
+````
+
+
+## Lista list-unstyled  (sin estilo)
+
+```php
+<ul class="list-unstyled">
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>Consectetur adipiscing elit</li>
+  <li>Integer molestie lorem at massa</li>
+  <li>Facilisis in pretium nisl aliquet</li>
+  <li>Nulla volutpat aliquam velit
+    <ul>
+      <li>Phasellus iaculis neque</li>
+      <li>Purus sodales ultricies</li>
+      <li>Vestibulum laoreet porttitor sem</li>
+      <li>Ac tristique libero volutpat at</li>
+    </ul>
+  </li>
+  <li>Faucibus porta lacus fringilla vel</li>
+  <li>Aenean sit amet erat nunc</li>
+  <li>Eget porttitor lorem</li>
+</ul>
+            
+````
+
+## Colores de fuentes
+
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/colores.png" width="500"
+</p>
+      
+
+```php
+<div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-2 borde0">
+                  <p class="text-primary">.text-primary</p>
+                  <p class="text-secondary">.text-secondary</p>
+                  <p class="text-success">.text-success</p>
+                  <p class="text-danger">.text-danger</p>
+                  <p class="text-warning">.text-warning</p>
+                  <p class="text-info">.text-info</p>
+                  <p class="text-light bg-dark">.text-light</p>
+                  <p class="text-dark">.text-dark</p>
+                  <p class="text-body">.text-body</p>
+                  <p class="text-muted">.text-muted</p>
+                  <p class="text-white bg-dark">.text-white</p>
+                  <p class="text-black-50">.text-black-50</p>
+                  <p class="text-white-50 bg-dark">.text-white-50</p>
+              </div>
+            </div>
+          </div>
+````
+
+
+
+
+
+## Fondos
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/fondos.png" width="500"
+</p>
+      
+      
+      
+```php
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-2 borde0">
+        <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+        <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+        <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+        <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+        <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+        <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+        <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+        <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+        <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+        <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+    </div>
+  </div>
+</div>
+````
  
  
  
