@@ -141,6 +141,11 @@ Ejemplos de 3 rows, uno con cada alineamiento:
 
 ## Alineamiento Horizontal
 
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/align_vertical.png" width="500"
+</p>
+      
+
 Disponemos de las siguientes clases para alinear horizontalmente cualquier contenido:
 
 __justify-content-start__  = alinea a la izquierda.  
