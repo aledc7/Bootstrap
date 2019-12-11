@@ -61,7 +61,11 @@ __container-fluid__  :  A diferencia de la clase container, esta deja menos espa
 
 
 
-## Alineamieto Vertical con aling-items
+## Alineamieto Horizontal con aling-items
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/align_horizontal.png" width="700"
+</p>
 
 Existe una clase para alinear los items de toda una fila para que se alinean arriba, al centro o abajo, esta clase debe ir siempre junto con la clase row y estas son sus tres variantes:
 
@@ -139,10 +143,10 @@ Ejemplos de 3 rows, uno con cada alineamiento:
       </div>
  ````
 
-## Alineamiento Horizontal
+## Alineamiento Vertical
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/align_vertical.png" width="500"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/align_vertical.png" width="700"
 </p>
       
 
@@ -202,7 +206,7 @@ __justify-content-between__ =  divide los elementos y tira la mitad a la izquier
           </div>
         </div>
  ````
- ddd
+
  
  
  
