@@ -1,4 +1,14 @@
-# Bootstrap
+
+
+
+<p align="center">
+  <img align="left" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/bootstrap-logo.png" width="300"
+</p>    
+
+
+
+
+
 [![aledc.tk](https://github.com/aledc7/Scrum-Certification/blob/master/recursos/aledc.com.svg)](https://aledc.tk)
 [![License](https://github.com/aledc7/Scrum-Certification/blob/master/recursos/mit-license.svg)](https://aledc.tk)
 [![GitHub release](https://github.com/aledc7/Scrum-Certification/blob/master/recursos/release.svg)](https://aledc.tk)
