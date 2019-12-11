@@ -1,8 +1,8 @@
 
 
 
-<p align="center">
-  <img align="left" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/bootstrap-logo.png" width="300"
+<p align="left">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/bootstrap-logo.png" width="300"
 </p>    
 
 
