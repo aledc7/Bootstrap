@@ -407,6 +407,12 @@ __mb-md-1__  = Margin Bottom 1rem (16px) solo se aplicara a una resolución mayo
 __ml-lg-3__  = Margin Left 3rem (48px) solo se aplicara a una resolución mayor o igual a 992px   
 __mr-xl-4__  = Margin Right 4rem. solo se aplicara a una resolución mayor o igual a 1200px  
 
+Tambien existe la posibilidad de asignar  __mx-auto__  o __my-auto__  para no asignar un valor,  pero en estos casos es requisito asignarle un style="width: 100px;"  
+```php
+<p class="mx-auto" style="width: 200px;"> texto</p>
+````
+
+
 
 ### Ejemplo de Padding:
 
