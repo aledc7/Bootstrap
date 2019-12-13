@@ -406,3 +406,37 @@ __mt-sm-2__  = Margin Top 2rem (32px) solo se aplicara a una resolución mayor o
 __mb-md-1__  = Margin Bottom 1rem (16px) solo se aplicara a una resolución mayor o igual a 768px   
 __ml-lg-3__  = Margin Left 3rem (48px) solo se aplicara a una resolución mayor o igual a 992px   
 __mr-xl-4__  = Margin Right 4rem. solo se aplicara a una resolución mayor o igual a 1200px  
+
+
+### Ejemplo de Padding:
+
+la lógica es exactamente la misma que la de margenes, solo se reemplaza la letra __m__ por la letra __p__  
+
+
+
+__pt-2__  = Margin Top 2rem (32px)   
+__pb-1__  = Margin Bottom 1rem (16px)   
+__pl-3__  = Margin Left 3rem (48px)   
+__pr-4__  = Margin Right 4rem.     
+__px-5__ = Margen para todo el eje de las X, o sea, izquierda y derecha, de 5 rems.  
+__py-3__ = Margen para todo el eje de las Y, o sea, arriba y abajo, de 3rem.
+
+> También es posible combinar estos margenes con los puntos de ruptura de bootsrap, de manera que un margen se aplique unicamente a una determinada resolución: 
+
+__sm__ = Small,        mayor o igual a 576px    
+__md__ = Medium,       mayor o igual a 768px  
+__lg__ = Large,        mayor o igual a 992px  
+__xl__ = Extra large,  mayor o igual a 1200px
+
+> Combinado entonces el margen, con el area, mas la resolución de pantalla, quedaría así:
+
+__pt-sm-2__  = Margin Top 2rem (32px) solo se aplicara a una resolución mayor o igual a 576px     
+__pb-md-1__  = Margin Bottom 1rem (16px) solo se aplicara a una resolución mayor o igual a 768px   
+__pl-lg-3__  = Margin Left 3rem (48px) solo se aplicara a una resolución mayor o igual a 992px   
+__pr-xl-4__  = Margin Right 4rem. solo se aplicara a una resolución mayor o igual a 1200px  
+
+
+
+
+
+
