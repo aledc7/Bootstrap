@@ -34,7 +34,7 @@ __col-lg-__  = Large,        mayor o igual a 992px
 __col-xl-__  = Extra large,  mayor o igual a 1200px  
 
 
-Primeramente se debe saber que siempre que vayamos a usar Bootstrap, debemos definir un contenedor, existen dos tipos:
+> Primeramente se debe saber que siempre que vayamos a usar Bootstrap, debemos definir un contenedor, existen dos tipos:
 
 Primer tipo:
 
@@ -79,7 +79,7 @@ __container-fluid__  :  A diferencia de la clase container, esta deja menos espa
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/align_horizontal.png" width="700"
 </p>
 
-Existe una clase para alinear los items de toda una fila para que se alinean arriba, al centro o abajo, esta clase debe ir siempre junto con la clase row y estas son sus tres variantes:
+> Existe una clase para alinear los items de toda una fila para que se alinean arriba, al centro o abajo, esta clase debe ir siempre junto con la clase row y estas son sus tres variantes:
 
 __align-items-start__   : Alineación en la parte superior del renglon.  
 
@@ -128,10 +128,10 @@ Ejemplos de 3 rows, uno con cada alineamiento:
 ````
 
  
- En caso de que necesitemos un alineamiento individual dentro de una misma celda, se deberá usar __align-self__ con las tres mismas variantes de __start, center y end__  y colocarse ya no en el row, sino dentro de la etiqueta de cada DIV que esté queriendo alinear.   
+ > En caso de que necesitemos un alineamiento individual dentro de una misma celda, se deberá usar __align-self__ con las tres mismas variantes de __start, center y end__  y colocarse ya no en el row, sino dentro de la etiqueta de cada DIV que esté queriendo alinear.   
  
  
- Aqui un ejemplo de una linea con 3 divs alineados de forma individual:
+ > Aqui un ejemplo de una linea con 3 divs alineados de forma individual:
  
  ```php
  
@@ -157,14 +157,14 @@ Ejemplos de 3 rows, uno con cada alineamiento:
 
 ## Alineamiento Vertical
 
-La imágen de abajo muestra cinco filas con dos divs cada uno.  Cada renglon tiene un tipo de alineacion que afecta la alineación de cada div.
+> La imágen de abajo muestra cinco filas con dos divs cada uno.  Cada renglon tiene un tipo de alineacion que afecta la alineación de cada div.
 
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/align_vertical.png" width="700"
 </p>
       
 
-Disponemos de las siguientes clases para alinear horizontalmente cualquier contenido:
+> Disponemos de las siguientes clases para alinear horizontalmente cualquier contenido:
 
 __justify-content-start__  = alinea a la izquierda.  
 __justify-content-center__ = alinea al centro de la fila.  
@@ -237,7 +237,7 @@ Esta clase elimina los pequeños espaciados que tienen los elementos naturalment
 ## Tipografias
 
  
-Clases para titulos y distintas tipografías:
+> Clases para titulos y distintas tipografías:
 
 __H1 al H6__   = Son los titulos similar a los tags de HTML pero con una fuente mas delicada.
 
@@ -248,7 +248,7 @@ __lead__   = Esta clase es similar a una etiqueta __p__  solo apenas mas grande 
 
 ### Alineación de texto
 
-Las clases disponibles para parrafos son:
+> Las clases disponibles para parrafos son:
 
 __text-left   
 text-center   
@@ -267,8 +267,8 @@ text-right__
 
 ## Listas list-inline
 
-Esta clase permite poner una lista una al lado de la otra, en lugar de una abajo de la otra.
-Puede ser útil para generar encabezados.  
+> Esta clase permite poner una lista una al lado de la otra, en lugar de una abajo de la otra.
+> Puede ser útil para generar encabezados.  
 
 ```php
 <ul class="list-inline">
