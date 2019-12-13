@@ -368,6 +368,58 @@ Puede ser útil para generar encabezados.
  
 
 
+## Margenes y Padding
+
+Para agregar margenes, se utuliza la letra __m__ mientras que para agregar paddin se utiliza la __p__   
+
+Luego esta letra __m__  o __p__  se combina con el sector al que se le quiera aplicar.   
+
+t top   
+b bottom   
+l left  
+r right   
+x para todo el eje x   
+y para todo el eje y   
+
+Finalmente se le agrega el numero de la unidad que se le quiera dar de margen, va desde el 0 al 5, e incuso auto .      
+La medida que usa bootstrap es __rem__ ,  un rem equivale a 16px . 
+
+
+### Ejemplo de Margenes:   
+
+__mt-2__  = Margin Top 2rem (32px)   
+__mb-1__  = Margin Bottom 1rem (16px)   
+__ml-3__  = Margin Left 3rem (48px)   
+__mr-4__  = Margin Right 4rem.     
+__mx-5__ = Margen para todo el eje de las X, o sea, izquierda y derecha, de 5 rems.  
+__my-3__ = Margen para todo el eje de las Y, o sea, arriba y abajo, de 3rem.
+
+También es posible combinar estos margenes con los puntos de ruptura de bootsrap, de manera que un margen se aplique unicamente a una determinada resolución: 
+
+__sm__ = Small,        mayor o igual a 576px    
+__md__ = Medium,       mayor o igual a 768px  
+__lg__ = Large,        mayor o igual a 992px  
+__xl__ = Extra large,  mayor o igual a 1200px
+
+Combinado entonces el margen, con el area, mas la resolución de pantalla, quedaría así:
+
+__mt-sm-2__  = Margin Top 2rem (32px) solo se aplicara a una resolución mayor o igual a 576px     
+__mb-md-1__  = Margin Bottom 1rem (16px) solo se aplicara a una resolución mayor o igual a 768px   
+__ml-lg-3__  = Margin Left 3rem (48px) solo se aplicara a una resolución mayor o igual a 992px   
+__mr-xl-4__  = Margin Right 4rem. solo se aplicara a una resolución mayor o igual a 1200px  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
