@@ -392,6 +392,7 @@ __ml-3__  = Margin Left 3rem (48px)
 __mr-4__  = Margin Right 4rem.     
 __mx-5__  = Margen para todo el eje de las X, o sea, izquierda y derecha, de 5 rems.  
 __my-3__  = Margen para todo el eje de las Y, o sea, arriba y abajo, de 3rem.
+__m-3__  =  Al poner solo la m sin indicador del area, el margen será hacia los 4 lados
 
 > También es posible combinar estos margenes con los puntos de ruptura de bootsrap, de manera que un margen se aplique unicamente a una determinada resolución: 
 
@@ -426,6 +427,8 @@ __pl-3__  = Padding Left 3rem (48px)
 __pr-4__  = Padding Right 4rem.     
 __px-5__  = Padding para todo el eje de las X, o sea, izquierda y derecha, de 5 rems.  
 __py-3__  = Padding para todo el eje de las Y, o sea, arriba y abajo, de 3rem.
+__p-3__  =  Al poner solo la m sin indicador del area, el padding será hacia los 4 lados
+
 
 > También es posible combinar estos Paddings con los puntos de ruptura de bootsrap, de manera que un margen se aplique unicamente a una determinada resolución: 
 
