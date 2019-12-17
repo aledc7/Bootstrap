@@ -449,7 +449,12 @@ __pr-xl-4__  = Padding Right 4rem. solo se aplicara a una resolución mayor o ig
 ### Alertas
 
 
-Creando divs de alerta
+Creando divs de alertas
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/1.png" width="700"
+</p>
+
 
 
 ```php
@@ -489,6 +494,10 @@ Creando divs de alerta
     <div class="my-4"></div>
 
 ```
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/2.png" width="700"
+</p>
 
 ```php
 
@@ -539,7 +548,9 @@ Creando divs de alerta
     </div>
 
 ````
-
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/3.png" width="700"
+</p>
 
 ```php
     <div class="container">
@@ -584,6 +595,11 @@ Creando divs de alerta
 
 ## Badges
 
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/4.png" width="700"
+</p>
+
 ```php
     <div class="text-center my-5">
       <h2>Badges</h2>
@@ -603,6 +619,11 @@ Creando divs de alerta
 
 ````
 ## Notifications
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/5.png" width="700"
+</p>
+  
 ```php
 
     <div class="text-center my-5">
@@ -635,6 +656,11 @@ Creando divs de alerta
 ````
 
 ## Badges pequenas
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/6.png" width="700"
+</p>
+  
 ```php
 
     <div class="text-center my-5">
@@ -655,6 +681,12 @@ Creando divs de alerta
     </div>
 ````
 ## Badges Pills
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/7.png" width="700"
+</p>
+  
+  
 
 ```php
 
