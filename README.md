@@ -593,7 +593,7 @@ Creando divs de alertas
 
 ````
 
-## Badges  
+
 
 
 <p align="center">
@@ -618,7 +618,6 @@ Creando divs de alertas
     </div>
 
 ````
-## Notifications  
 
 
 
@@ -657,7 +656,6 @@ Creando divs de alertas
 
 ````
 
-## Badges pequenas  
 
 
 
@@ -684,7 +682,7 @@ Creando divs de alertas
       </div>
     </div>
 ````
-## Badges Pills  
+
 
 
 
