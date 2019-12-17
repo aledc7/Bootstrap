@@ -452,7 +452,7 @@ __pr-xl-4__  = Padding Right 4rem. solo se aplicara a una resolución mayor o ig
 Creando divs de alertas
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/1.png" width="700"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/1.png" width="1024"
 </p>
 
 
@@ -496,7 +496,7 @@ Creando divs de alertas
 ```
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/2.png" width="700"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/2.png" width="1024"
 </p>
 
 ```php
@@ -549,7 +549,7 @@ Creando divs de alertas
 
 ````
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/3.png" width="700"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/3.png" width="1024"
 </p>
 
 ```php
@@ -593,11 +593,11 @@ Creando divs de alertas
 
 ````
 
-## Badges
+## Badges  
 
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/4.png" width="700"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/4.png" width="1024"
 </p>
 
 ```php
@@ -618,10 +618,12 @@ Creando divs de alertas
     </div>
 
 ````
-## Notifications
+## Notifications  
+
+
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/5.png" width="700"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/5.png" width="1024"
 </p>
   
 ```php
@@ -655,10 +657,12 @@ Creando divs de alertas
 
 ````
 
-## Badges pequenas
+## Badges pequenas  
+
+
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/6.png" width="700"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/6.png" width="1024"
 </p>
   
 ```php
@@ -680,10 +684,12 @@ Creando divs de alertas
       </div>
     </div>
 ````
-## Badges Pills
+## Badges Pills  
+
+
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/7.png" width="700"
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/7.png" width="1024"
 </p>
   
   
