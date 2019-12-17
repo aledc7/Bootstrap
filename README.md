@@ -582,7 +582,103 @@ Creando divs de alerta
 
 ````
 
-eee
+## Badges
+
+```php
+    <div class="text-center my-5">
+      <h2>Badges</h2>
+    </div>
+
+    <div class="container">
+      <div class="col-12">
+        <h1>Example heading <span class="badge badge-primary">New</span></h1>
+        <h2>Example heading <span class="badge badge-info">New</span></h2>
+        <h3>Example heading <span class="badge badge-danger">New</span></h3>
+        <h4>Example heading <span class="badge badge-success">New</span></h4>
+        <h5>Example heading <span class="badge badge-warning">New</span></h5>
+        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+        <h6>Example heading <span class="badge badge-light">New</span></h6>
+      </div>
+    </div>
+
+````
+## Notifications
+```php
+
+    <div class="text-center my-5">
+      <h2>Notifications</h2>
+    </div>
+
+    <div class="container">
+      <div class="col-12">
+        <button type="button" class="btn btn-primary">
+          Notifications <span class="badge badge-success">1</span>
+        </button>
+        <button type="button" class="btn btn-info">
+          Notifications <span class="badge badge-primary">2</span>
+        </button>
+        <button type="button" class="btn btn-danger">
+          Notifications <span class="badge badge-info">3</span>
+        </button>
+        <button type="button" class="btn btn-success">
+          Notifications <span class="badge badge-warning">4</span>
+        </button>
+        <button type="button" class="btn btn-warning">
+          Notifications <span class="badge badge-secondary">5</span>
+        </button>
+        <button type="button" class="btn btn-secondary">
+          Notifications <span class="badge badge-warning">6</span>
+        </button>
+      </div>
+    </div>
+
+````
+
+## Badges pequenas
+```php
+
+    <div class="text-center my-5">
+      <h2>Badges pequenas</h2>
+    </div>
+
+    <div class="container">
+      <div class="col-12">
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-danger">Danger</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-light">Light</span>
+        <span class="badge badge-dark">Dark</span>
+      </div>
+    </div>
+````
+## Badges Pills
+
+```php
+
+    <div class="text-center my-5">
+      <h2>Badges Pills</h2>
+    </div>
+
+    <div class="container">
+      <div class="col-12">
+        <span class="badge badge-pill badge-primary">Primary</span>
+        <span class="badge badge-pill badge-secondary">Secondary</span>
+        <span class="badge badge-pill badge-success">Success</span>
+        <span class="badge badge-pill badge-danger">Danger</span>
+        <span class="badge badge-pill badge-warning">Warning</span>
+        <span class="badge badge-pill badge-info">Info</span>
+        <span class="badge badge-pill badge-light">Light</span>
+        <span class="badge badge-pill badge-dark">Dark</span>
+      </div>
+    </div>
+    <hr />
+````
+
+
+
 
 
 
