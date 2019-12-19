@@ -716,74 +716,757 @@ Creando divs de alertas
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/8.png" width="1024"
 </p>
+  
+```php
+  <div class="container">
+    <div class="col-12">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+
+      <button type="button" class="btn btn-link">Link</button>
+    </div>
+  </div>
+```
 
 
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/9.png" width="1024"
 </p>
   
+```php
+  <div class="container">
+    <div class="col-12">
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">
+        Secondary
+      </button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <button type="button" class="btn btn-outline-warning">Warning</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-light">Light</button>
+      <button type="button" class="btn btn-outline-dark">Dark</button>
+    </div>
+  </div>
+```
+  
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/10.png" width="1024"
 </p>
+  
+```php
+<div class="container">
+    <div class="col-12">
+      <button type="button" class="btn btn-primary btn-sm">Primary</button>
+      <button type="button" class="btn btn-secondary btn-sm">
+        Secondary
+      </button>
+      <button type="button" class="btn btn-success btn-sm">Success</button>
+      <button type="button" class="btn btn-danger btn-sm">Danger</button>
+      <button type="button" class="btn btn-warning btn-sm">Warning</button>
+      <button type="button" class="btn btn-info btn-sm">Info</button>
+      <button type="button" class="btn btn-light btn-sm">Light</button>
+      <button type="button" class="btn btn-dark btn-sm">Dark</button>
+      <button type="button" class="btn btn-link btn-sm">Link</button>
+    </div>
+  </div>
+````
+
+  
   
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/11.png" width="1024"
 </p>
   
+```php
+<div class="container">
+    <div class="col-12">
+      <button type="button" class="btn btn-primary btn-sm">Primary</button>
+      <button type="button" class="btn btn-secondary btn-sm">
+        Secondary
+      </button>
+      <button type="button" class="btn btn-success btn-sm">Success</button>
+      <button type="button" class="btn btn-danger btn-sm">Danger</button>
+      <button type="button" class="btn btn-warning btn-sm">Warning</button>
+      <button type="button" class="btn btn-info btn-sm">Info</button>
+      <button type="button" class="btn btn-light btn-sm">Light</button>
+      <button type="button" class="btn btn-dark btn-sm">Dark</button>
+      <button type="button" class="btn btn-link btn-sm">Link</button>
+    </div>
+  </div>
+````
+  
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/12.png" width="1024"
 </p>
+  
+```php
+  <div class="container">
+    <div class="col-12">
+      <button type="button" class="btn btn-primary btn-lg btn-block">
+        aledc.tk
+      </button>
+      <button type="button" class="btn btn-secondary btn-lg btn-block">
+        aledc.tk
+      </button>
+    </div>
+  </div>
+````
+
   
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/13.png" width="1024"
 </p>
   
+```php
+<div class="container">
+    <div class="col-12">
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" checked /> Active
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2" /> Grupo
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3" /> De
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3" /> varios
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3" /> Botones
+        </label>
+      </div>
+    </div>
+  </div>
+````
+
+  
   
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/14.png" width="1024"
 </p>
+ 
+```php
+  <div class="container">
+    <div class="col-12">
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-primary">1</button>
+          <button type="button" class="btn btn-secondary">2</button>
+          <button type="button" class="btn btn-alert">3</button>
+          <button type="button" class="btn btn-warning">4</button>
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="Second group">
+          <button type="button" class="btn btn-danger">5</button>
+          <button type="button" class="btn btn-success">6</button>
+          <button type="button" class="btn btn-secondary">7</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third group">
+          <button type="button" class="btn btn-secondary">8</button>
+        </div>
+      </div>
+    </div>
+  </div>
+````
+
+
   
   
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/15.png" width="1024"
 </p>
   
+```php
+<div class="container">
+    <div class="col-12">
+      <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <button type="button" class="btn btn-secondary">1</button>
+          <button type="button" class="btn btn-secondary">2</button>
+          <button type="button" class="btn btn-secondary">3</button>
+          <button type="button" class="btn btn-secondary">4</button>
+        </div>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon">@</div>
+          </div>
+          <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example"
+            aria-describedby="btnGroupAddon" />
+        </div>
+      </div>
+
+      <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group" role="group" aria-label="First group">
+          <button type="button" class="btn btn-secondary">1</button>
+          <button type="button" class="btn btn-secondary">2</button>
+          <button type="button" class="btn btn-secondary">3</button>
+          <button type="button" class="btn btn-secondary">4</button>
+        </div>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon2">@</div>
+          </div>
+          <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example"
+            aria-describedby="btnGroupAddon2" />
+        </div>
+      </div>
+    </div>
+  </div>
+````
+  
   
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/16.png" width="1024"
 </p>
   
+```php
+<div class="container">
+    <div class="col-12">
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+````
+  
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/17.png" width="1024"
 </p>
-  
-  
+
+
+```php
+<div class="container">
+    <div class="col-12">
+      <div class="btn-group btn-group-toggle btn-group-vertical" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" checked /> Active
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2" /> Grupo
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3" /> De
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3" /> varios
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3" /> Botones
+        </label>
+      </div>
+    </div>
+  </div>
+````
+
+
+
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/18.png" width="1024"
 </p>
   
+```php
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/car2.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/car.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/car2.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+````
+
+  
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/19.png" width="1024"
 </p>
+  
+```php
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="./img/car2.jpeg" class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="./img/car.jpeg" class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+````
   
   
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/20.png" width="1024"
 </p>
   
+```php
+ <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Primary card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-3">
+        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Info card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Dark card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Warning card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+````
+
+  
 
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/21.png" width="1024"
 </p>
   
+```php
+<div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="card border-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body text-primary">
+            <h5 class="card-title">Primary card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card border-dark mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body text-dark">
+            <h5 class="card-title">Dark card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card border-light mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Light card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card border-info mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body text-info">
+            <h5 class="card-title">Info card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-3">
+        <div class="card border-danger mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body text-danger">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card border-secondary mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body text-secondary">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body text-success">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="card border-warning mb-3" style="max-width: 18rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body text-warning">
+            <h5 class="card-title">Warning card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+````
+
+  
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/22.png" width="1024"
 </p>
+  
+```php
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">Header</div>
+          <div class="card-body text-success">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-success">Footer</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-danger mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-danger">Header</div>
+          <div class="card-body text-danger">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-danger">Footer</div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card border-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-primary">Header</div>
+          <div class="card-body text-primary">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-primary">Footer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+````
+
   
   
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/23.png" width="1024"
 </p>
+  
+```php
+<div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="card border-success mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-success">Header</div>
+          <div class="card-body text-success">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-success">Footer</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-danger mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-danger">Header</div>
+          <div class="card-body text-danger">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-danger">Footer</div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card border-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header bg-transparent border-primary">Header</div>
+          <div class="card-body text-primary">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+          </div>
+          <div class="card-footer bg-transparent border-primary">Footer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="text-center my-5">
+    <h2>Collapse Elementos</h2>
+  </div>
+
+
+  <div class="container">
+    <div class="col-12">
+      <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+          aria-expanded="false" aria-controls="multiCollapseExample1">Mostrar Primer Elemento</a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+          aria-expanded="false" aria-controls="multiCollapseExample2">Mostrar Segundi Elemento</button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+          aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Mostrar Ambos
+          Elementos</button>
+      </p>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+              keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+              keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+````
+
   
 
 
