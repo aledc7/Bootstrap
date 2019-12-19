@@ -713,7 +713,78 @@ Creando divs de alertas
     <hr />
 ````
 
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/8.png" width="1024"
+</p>
 
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/9.png" width="1024"
+</p>
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/10.png" width="1024"
+</p>
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/11.png" width="1024"
+</p>
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/12.png" width="1024"
+</p>
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/13.png" width="1024"
+</p>
+  
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/14.png" width="1024"
+</p>
+  
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/15.png" width="1024"
+</p>
+  
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/16.png" width="1024"
+</p>
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/17.png" width="1024"
+</p>
+  
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/18.png" width="1024"
+</p>
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/19.png" width="1024"
+</p>
+  
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/20.png" width="1024"
+</p>
+  
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/21.png" width="1024"
+</p>
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/22.png" width="1024"
+</p>
+  
+  
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/23.png" width="1024"
+</p>
+  
 
 
 
