@@ -18,6 +18,10 @@
 
 # Ejemplos de Bootstrap y uso común
 
+Este repositorio agrupa la mayoría de los elementos de bootstrap.  
+Si bien esta misma info se encuentra disponible en la documentacion oficial, aqui está toda en una sola página, lo cual resulta útil para una rápida referencia y uso, ya que cada ejemplo tiene el código.
+
+
 
 
 
