@@ -1479,19 +1479,27 @@ __ml-auto__  = alinea a la derecha  (aunque tenga la L de left, al parecer boots
 __mr-auto__ = alinea a la izquierda.   
 __m-auto__ = alinea al centro si no se le pone ni L ni R.   
 
+
+
 ```php
 <ul class="navbar-nav ml-auto">
 ````
-
-
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/24.png" width="1024"
 </p>
   
+  
+```php
+<ul class="navbar-nav mr-auto">
+````  
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/25.png" width="1024"
 </p>
-  
+ 
+ 
+```php
+<ul class="navbar-nav m-auto">
+```` 
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/26.png" width="1024"
 </p>  
