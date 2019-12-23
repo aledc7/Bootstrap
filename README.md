@@ -1553,6 +1553,10 @@ __m-auto__ = alinea al centro si no se le pone ni L ni R.
 
 ## Logo en el Navbar
 
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/27.png" width="1024"
+</p>  
+
 Para agregar el logo de la companía o el producto al NavBar puede hacerse de la siguiente manera:   
 
 ```php
