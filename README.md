@@ -1551,6 +1551,59 @@ __m-auto__ = alinea al centro si no se le pone ni L ni R.
   </nav>
 ````
 
+## Logo en el Navbar
+
+Para agregar el logo de la companía o el producto al NavBar puede hacerse de la siguiente manera:   
+
+```php
+# Luego del nav principal...
+<nav class="container navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    
+      # Agregar esta etiqueta "A" y dentro incluir una imagen, preferentemente en SVG. 
+      <a class="navbar-brand" href="#">
+        <img src="./img/Logo-overport.svg" width="40" height="40" class="d-inline-block align-top" alt="">
+      </a>
+      
+      # Luego Aqui el nombre de la compania.
+      <div class="align-self-center text-white">
+        OVERPORT
+      </div>
+````
+
+
+## Fijar el NavBar en el TOP o en el Bottom de la página.
+
+Generalmente se querrá que el NavBar quede fijo en el Header de la página, esto se logra con las clases:  
+__fixed-top__  Para alinear en el header.  
+__fixed-bottom__  Para alinear en el footer.   
+
+ambas clases deben agregarse en el __nav__ principal del navbar.     
+
+__fixed-top__   
+````php
+<nav class="container navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+````
+
+__fixed-bottom__   
+````php
+<nav class="container navbar navbar-expand-lg navbar-light bg-dark fixed-bottom">
+`````
+También existe la posibilidad de dejar el header movil, pero que se detenga al llegar al tope de la página, este comportamiento se lo conoce como __"Sticky"__   
+ Es posible aplicar este comportamiento tanto en el header (___stycky-top__) como en el footer (__sticky_bottom__)   
+
+__sticky-top__   
+````php
+<nav class="container navbar navbar-expand-lg navbar-light bg-dark sticky-top">
+`````
+
+
+
+
+
+
+
+
+
 
   
 
