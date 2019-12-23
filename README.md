@@ -29,7 +29,7 @@ Si bien esta misma info se encuentra disponible en la documentacion oficial, aqu
 
 Comencemos con el sitema de Grilla de Bootstrap, que divide la pantalla en 12 posiciones, entonces definimos como trabajar.
 
-## Grip Option y sus puntos de quiebre
+## Grid Option y sus puntos de quiebre
 
 __col-__     = Extra small,  menor que 576px   
 __col-sm-__  = Small,        mayor o igual a 576px  
