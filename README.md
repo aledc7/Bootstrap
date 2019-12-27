@@ -1601,6 +1601,26 @@ __sticky-top__
 `````
 
 
+## Ocultando elementos
+
+Ocultar elemento en todas las medidas:  	__.d-none__   
+Ocultar en medida xs	__.d-none .d-sm-block__   
+Ocultar en medida sm	__.d-sm-none .d-md-block__   
+Ocultar en medida md	__.d-md-none .d-lg-block__   
+Ocultar en medida lg	__.d-lg-none .d-xl-block__   
+Ocultar en medida xl	__.d-xl-none__   
+Mostrar en totos	__.d-block__    
+Mostrar en medida xs	__.d-block .d-sm-none__   
+Mostrar en medida sm	__.d-none .d-sm-block .d-md-none__   
+Mostrar en medida md	__.d-none .d-md-block .d-lg-none__   
+Mostrar en medida lg	__.d-none .d-lg-block .d-xl-none__   
+Mostrar en medida xl	__.d-none .d-xl-block__  
+
+
+
+
+
+
 
 
 
