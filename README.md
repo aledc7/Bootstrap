@@ -1618,6 +1618,32 @@ Mostrar en medida xl	__.d-none .d-xl-block__
 
 
 
+## Elementos de linea y de Bloque
+
+### Elemento de Linea
+
+Un elemento de linea ocupara solamente lo que ocupe su contenido.   
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/28.png" width="1024"
+</p>
+
+
+### Elemento de Bloque
+
+Un elemento de bloque ocupara todo el acho que le permita ocupar su padre.  En caso de no tener padre, ocupará todo el ancho de la pantalla. 
+
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/aledc7/Bootstrap/master/resources/29.png" width="1024"
+</p>
+
+Tener en cuenta que asignando la clase __d-inline__ a un elemento de bloque, este se comportará como elemento de linea.  
+Lo mismo ocurre con un elemento de linea que se le asigne la clase __d-block__  , este se comportará como elemento de bloque.
+
+Nativamente los divs son elementos de bloque, mientras que por ejemplo lo botones o parrafos son elementos de linea.   
+
+
+
 
 
 
