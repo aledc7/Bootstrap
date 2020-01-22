@@ -1600,6 +1600,17 @@ __sticky-top__
 <nav class="container navbar navbar-expand-lg navbar-light bg-dark sticky-top">
 `````
 
+IMPORTANTE: En versiones RESPONSIVE para movil, predeterminadamente al darle click a uno de las opciones del menú del NAV BAR, este quedará abierto y no se colapsará.
+Para hacer que se cierre, simplemente agregar este script antes de cerrar la etiqueta de </body> en el mismo html en donde esté el NAV:
+```php
+<script>
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+</script>
+````
+
+
 
 ## Ocultando elementos
 
