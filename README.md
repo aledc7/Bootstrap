@@ -1610,6 +1610,45 @@ $('.navbar-nav>li>a').on('click', function(){
 </script>
 ````
 
+### Animación en el Scroll del NAVBAR
+
+AL elegir una opción del menú del NavBar, la página se ira inmediatamente hasta esa sección, de forma rápida y un tanto grotesca.  Para evitar este efecto se puede utilizar un efecto de Animación.
+Para lograr esto se debe usar Jquery, importando la version NO MINIFICADA de Jquery.  
+
+Esta es la función para animar la transicion hasta la seccion seleccionada en el Navbar:
+```js
+$(function () {
+        $('a[href*="#"]:not([href="#"])').click(function () {
+          var target = $(this.hash);
+          if (target.length) {
+            $("html, body").animate(
+              {
+                scrollTop: target.offset().top
+              },
+              1000
+            );
+          }
+        });
+      });
+````
+
+Este es el CDN de la versíon a la fecha (Ene.2020) de Jquery NO MINIFICADO:
+```js
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+````
+En caso de que se quiera descargar el archivo para no usar el CDN, simplemente quitar la parte de Intergrity y el SHA.
+Luego descargar el archivo y copiarlo a la carpeta del proyecto.
+
+```js
+<script src="/jquery-3.4.1.js" crossorigin="anonymous"></script>
+````
+
+
+
+
 
 
 ## Ocultando elementos
@@ -1652,24 +1691,3 @@ Tener en cuenta que asignando la clase __d-inline__ a un elemento de bloque, est
 Lo mismo ocurre con un elemento de linea que se le asigne la clase __d-block__  , este se comportará como elemento de bloque.
 
 Nativamente los divs son elementos de bloque, mientras que por ejemplo lo botones o parrafos son elementos de linea.   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
