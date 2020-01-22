@@ -1616,7 +1616,7 @@ AL elegir una opción del menú del NavBar, la página se ira inmediatamente has
 Para lograr esto se debe usar Jquery, importando la version NO MINIFICADA de Jquery.  
 
 Esta es la función para animar la transicion hasta la seccion seleccionada en el Navbar.   
-Colocar despues de la etiqueta de cierre del </body>.   
+Colocar despues de la etiqueta de cierre del body.   
 ```js
 <script>
 $(function () {
