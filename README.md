@@ -1615,8 +1615,10 @@ $('.navbar-nav>li>a').on('click', function(){
 AL elegir una opción del menú del NavBar, la página se ira inmediatamente hasta esa sección, de forma rápida y un tanto grotesca.  Para evitar este efecto se puede utilizar un efecto de Animación.
 Para lograr esto se debe usar Jquery, importando la version NO MINIFICADA de Jquery.  
 
-Esta es la función para animar la transicion hasta la seccion seleccionada en el Navbar:
+Esta es la función para animar la transicion hasta la seccion seleccionada en el Navbar.   
+Colocar despues de la etiqueta de cierre del </body>.   
 ```js
+<script>
 $(function () {
         $('a[href*="#"]:not([href="#"])').click(function () {
           var target = $(this.hash);
@@ -1630,6 +1632,7 @@ $(function () {
           }
         });
       });
+</script>
 ````
 
 Este es el CDN de la versíon a la fecha (Ene.2020) de Jquery NO MINIFICADO:
